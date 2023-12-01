@@ -13,4 +13,11 @@ public class Car {
         this.rokProdukcji = rokProdukcji;
         this.przebieg = przebieg;
     }
+    public void wyswietlInfo()
+    {
+        System.out.println("Marka:  " + marka);
+        System.out.println("Model:  " + model);
+        System.out.println("Rok Produkcji: " + rokProdukcji);
+        System.out.println("Przebieg:   " + przebieg + "\n");
+    }
 }
