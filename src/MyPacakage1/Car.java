@@ -1,10 +1,10 @@
 package MyPacakage1;
 
 public class Car {
-    private String marka;
-    private String model;
-    private int rokProdukcji;
-    private int przebieg;
+    public String marka;
+    public String model;
+    public int rokProdukcji;
+    public int przebieg;
 
     public Car (String marka, String model, int rokProdukcji, int przebieg)
     {
