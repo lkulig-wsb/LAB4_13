@@ -1,13 +1,13 @@
 package MyPacakage1;
 
 public class Car {
-    public String marka;
-    public String model;
-    public int rokProdukcji;
-    public int przebieg;
-    public int liczbaDrzwi;
-    public double cena;
-    public double pojemnoscSilnika;
+    private String marka;
+    private String model;
+    private int rokProdukcji;
+    private int przebieg;
+    private int liczbaDrzwi;
+    private double cena;
+    private double pojemnoscSilnika;
 
     public Car (String marka, String model, int rokProdukcji, int przebieg,
                 int liczbaDrzwi, double pojemnoscSilnika, double cena)
