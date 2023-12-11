@@ -1,6 +1,7 @@
 package MyPacakage1;
-
+//Klasa Car.
 public class Car {
+    //Dane składowe klasy Car.
     private String marka;
     private String model;
     private int rokProdukcji;
@@ -8,7 +9,7 @@ public class Car {
     private int liczbaDrzwi;
     private double cena;
     private double pojemnoscSilnika;
-
+    //Konstruktor klasy Car.
     public Car (String marka, String model, int rokProdukcji, int przebieg,
                 int liczbaDrzwi, double pojemnoscSilnika, double cena)
     {
@@ -20,6 +21,7 @@ public class Car {
         this.pojemnoscSilnika = pojemnoscSilnika;
         this.cena = cena;
     }
+   //Metoda wyświetlająca informacje o samochodzie.
     public void wyswietlInfo()
     {
         System.out.println("Marka:  " + marka);
